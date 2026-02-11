@@ -1,14 +1,15 @@
 {
-  "name": "workspace",
+  "name": "s2-code-shop",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tạ Ngọc Long",
   "license": "ISC",
-  "description": "",
+  "description": "S2 Code Shop - Trang web bán tài khoản",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "connect-pg-simple": "^10.0.0",
